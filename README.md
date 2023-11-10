@@ -1,6 +1,7 @@
 # FrontEnd
 
 
+
  **Bootstrap Grid System**
  --------------------------------------------------------
  
@@ -25,4 +26,35 @@ ex) 같은 넓이의 3개의 칼럼을 쓰고자 한다면 3개의 col-xs-4 칼�
 | **col-md-** | **992px 이하에서 세로로 표시 시작**|
 | col-lg- | 1200px 이하에서 세로로 표시 시작|
 
-	 
+
+**[ Responsive margin and Padding in Grid System ]**
+  
+*Class Format: { Property }{ Sides } - { Size }
+ex)  row-mb-3 : sets margin-bottom or padding-bottom to 1rem*
+
+| Property | Description  
+|:--:|:--:|
+| m |  sets margin |
+| p |  sets padding | 
+
+<br>  
+       
+| Sides | Description  
+|:--:|:--:|
+| t |  sets margin-top or padding-top |
+| b |  sets margin-bottom or padding-bottom |
+| l |  sets margin-left or padding-left |
+| r |  sets margin-right or padding-right |
+| x |  sets both padding-left and padding-right or margin-left and margin-right |
+| y |  sets both padding-top and padding-bottom or margin-top and margin-bottom |
+
+<br>
+
+| Size | Description  
+|:--:|:--:|
+| 0 |  sets margin or padding to 0|
+| 1 |  sets margin or padding to .25rem |
+| 2 |  sets margin or padding to .5rem |
+| 3 |  sets margin or padding to 1rem |
+| 4 |  sets margin or padding to 1.5rem |
+| 5 |  sets margin or padding to 3rem |
